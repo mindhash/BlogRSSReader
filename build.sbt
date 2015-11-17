@@ -1,0 +1,14 @@
+name := """LinkScraper"""
+
+version := "1.0"
+
+scalaVersion := "2.11.6"
+
+libraryDependencies ++= Seq(
+  "com.typesafe.akka" %% "akka-actor" % "2.3.11",
+  "com.typesafe.akka" %% "akka-testkit" % "2.3.11" % "test",
+  "org.scalatest" %% "scalatest" % "2.2.4" % "test",
+  "net.ruippeixotog" %% "scala-scraper" % "0.1.2",
+  "org.mongodb" %% "casbah" % "2.7.3"
+  )
+
